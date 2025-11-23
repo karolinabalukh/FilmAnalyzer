@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statistics attribute="country">
+   <item>
+      <value>USA</value>
+      <count>8</count>
+   </item>
+   <item>
+      <value>UK</value>
+      <count>2</count>
+   </item>
+   <item>
+      <value>New Zealand</value>
+      <count>1</count>
+   </item>
+   <item>
+      <value>South Korea</value>
+      <count>1</count>
+   </item>
+   <item>
+      <value>Japan</value>
+      <count>1</count>
+   </item>
+   <item>
+      <value>Italy</value>
+      <count>1</count>
+   </item>
+</statistics>

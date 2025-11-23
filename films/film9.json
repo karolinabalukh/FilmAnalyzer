@@ -1,0 +1,13 @@
+{
+  "title": "Parasite",
+  "year": 2019,
+  "duration": 132,
+  "genre": "thriller, drama",
+  "rating": 8.6,
+  "description": "A poor family schemes to infiltrate a wealthy household.",
+  "director": {
+    "name": "Bong Joon-ho",
+    "birthDate": "unknown",
+    "country": "South Korea"
+  }
+}

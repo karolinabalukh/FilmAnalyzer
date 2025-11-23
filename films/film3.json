@@ -1,0 +1,13 @@
+{
+  "title": "Butterfly effect",
+  "year": 2004,
+  "duration": 114,
+  "genre": "thriller",
+  "rating": 7.5,
+  "description": "College student Evan Treborn (Ashton Kutcher) discovers he can travel back to painful moments in his childhood by reading his journals.",
+  "director": {
+    "name": "Erik Bress",
+    "birthDate": "21-07-1989",
+    "country": "USA"
+  }
+}

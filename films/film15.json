@@ -1,0 +1,13 @@
+{
+  "title": "Forrest Gump",
+  "year": 1994,
+  "duration": 142,
+  "genre": "drama, romance",
+  "rating": 8.8,
+  "description": "A simple man witnesses key moments of U.S. history.",
+  "director": {
+    "name": "Robert Zemeckis",
+    "birthDate": "unknown",
+    "country": "USA"
+  }
+}

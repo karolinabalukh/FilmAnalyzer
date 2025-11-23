@@ -1,0 +1,13 @@
+{
+  "title": "The Polar Express",
+  "year": 2004,
+  "duration": 100,
+  "genre": "fantasy",
+  "rating": 8.4,
+  "description": "Both in its children's book and animated film versions, about a young boy who doubts Santa Claus on Christmas Eve and is taken on a magical train ride to the North Pole. ",
+  "director": {
+    "name": "Robert Zemeckis",
+    "birthDate": "14-05-1952",
+    "country": "USA"
+  }
+}

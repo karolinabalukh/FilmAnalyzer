@@ -1,0 +1,13 @@
+{
+  "title": "Interstellar",
+  "year": 2014,
+  "duration": 169,
+  "genre": "sci-fi, adventure, drama",
+  "rating": 8.6,
+  "description": "Explorers travel through a wormhole to save humanity.",
+  "director": {
+    "name": "Christopher Nolan",
+    "birthDate": "unknown",
+    "country": "USA"
+  }
+}

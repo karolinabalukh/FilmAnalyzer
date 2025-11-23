@@ -1,0 +1,13 @@
+{
+  "title": "The Wizard of Oz",
+  "year": 1939,
+  "duration": 102,
+  "genre": "fantasy, musical",
+  "rating": 8.0,
+  "description": "Dorothy is swept away by a tornado to a magical land.",
+  "director": {
+    "name": "Victor Fleming",
+    "birthDate": "unknown",
+    "country": "USA"
+  }
+}

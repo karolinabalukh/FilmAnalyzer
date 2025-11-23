@@ -1,0 +1,13 @@
+{
+  "title": "The Matrix",
+  "year": 1999,
+  "duration": 136,
+  "genre": "sci-fi, action",
+  "rating": 8.7,
+  "description": "A hacker discovers reality is a simulated world.",
+  "director": {
+    "name": "Lana & Lilly Wachowski",
+    "birthDate": "unknown",
+    "country": "USA"
+  }
+}

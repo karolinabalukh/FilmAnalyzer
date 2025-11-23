@@ -1,0 +1,13 @@
+{
+  "title": "The Lord of the Rings: The Return of the King",
+  "year": 2003,
+  "duration": 201,
+  "genre": "fantasy, adventure",
+  "rating": 9.0,
+  "description": "The final confrontation for Middle-earth begins.",
+  "director": {
+    "name": "Peter Jackson",
+    "birthDate": "unknown",
+    "country": "New Zealand"
+  }
+}

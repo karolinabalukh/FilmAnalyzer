@@ -1,0 +1,13 @@
+{
+  "title": "Casablanca",
+  "year": 1942,
+  "duration": 102,
+  "genre": "romance, drama",
+  "rating": 8.5,
+  "description": "A cynical expatriate must choose between love and duty.",
+  "director": {
+    "name": "Michael Curtiz",
+    "birthDate": "unknown",
+    "country": "UK"
+  }
+}

@@ -1,0 +1,13 @@
+{
+   "title": "Test Movie",
+   "year": 2022,
+   "duration": 120,
+   "genre": "fantasy",
+   "rating": 7.8,
+   "description": "desc",
+   "director": {
+     "name": "John",
+     "birthDate": "01-01-1980",
+     "country": "USA"
+   }
+}

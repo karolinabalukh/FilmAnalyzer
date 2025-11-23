@@ -1,0 +1,13 @@
+{
+  "title": "The Silence of the Lambs",
+  "year": 1991,
+  "duration": 118,
+  "genre": "thriller, crime",
+  "rating": 8.6,
+  "description": "A young FBI trainee seeks help from a cannibal killer.",
+  "director": {
+    "name": "Jonathan Demme",
+    "birthDate": "unknown",
+    "country": "USA"
+  }
+}

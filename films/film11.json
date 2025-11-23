@@ -1,0 +1,13 @@
+{
+  "title": "Seven Samurai",
+  "year": 1954,
+  "duration": 207,
+  "genre": "action, drama",
+  "rating": 8.6,
+  "description": "Villagers hire samurai to defend against bandits.",
+  "director": {
+    "name": "Akira Kurosawa",
+    "birthDate": "unknown",
+    "country": "Japan"
+  }
+}

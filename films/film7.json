@@ -1,0 +1,13 @@
+{
+  "title": "Citizen Kane",
+  "year": 1941,
+  "duration": 119,
+  "genre": "drama, mystery",
+  "rating": 8.3,
+  "description": "A reporter investigates the final word of a newspaper magnate.",
+  "director": {
+    "name": "Orson Welles",
+    "birthDate": "unknown",
+    "country": "USA"
+  }
+}

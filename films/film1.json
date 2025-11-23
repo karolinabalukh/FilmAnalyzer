@@ -1,0 +1,13 @@
+{
+  "title": "Wicked",
+  "year": 2024,
+  "duration": 160,
+  "genre": "fairy tale",
+  "rating": 7.4,
+  "description": "Elphaba, a young woman ridiculed for her green skin, and Galinda, a popular girl, become friends at Shiz University in the Land of Oz. After an encounter with the Wonderful Wizard of Oz, their friendship reaches a crossroads.",
+  "director": {
+    "name": "Jon M. Chu",
+    "birthDate": "02-11-1979",
+    "country": "USA"
+  }
+}

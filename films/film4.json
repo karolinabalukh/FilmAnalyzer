@@ -1,0 +1,13 @@
+{
+  "title": "Malena",
+  "year": 2000,
+  "duration": 92,
+  "genre": "drama",
+  "rating": 8.6,
+  "description": "12-year-old boy named Renato in a small Sicilian town during World War II, who becomes obsessed with the town's most beautiful woman, Malèna.",
+  "director": {
+    "name": "Giuseppe Tornatore",
+    "birthDate": "27-05-1956",
+    "country": "Italy"
+  }
+}

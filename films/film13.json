@@ -1,0 +1,13 @@
+{
+  "title": "Pulp Fiction",
+  "year": 1994,
+  "duration": 154,
+  "genre": "crime, drama",
+  "rating": 8.9,
+  "description": "The lives of criminals intertwine in Los Angeles.",
+  "director": {
+    "name": "Quentin Tarantino",
+    "birthDate": "unknown",
+    "country": "USA"
+  }
+}

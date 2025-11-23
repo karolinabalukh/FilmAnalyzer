@@ -1,0 +1,13 @@
+{
+  "title": "The Dark Knight",
+  "year": 2008,
+  "duration": 152,
+  "genre": "action, crime, drama",
+  "rating": 9.0,
+  "description": "Batman faces the Joker in Gotham City.",
+  "director": {
+    "name": "Christopher Nolan",
+    "birthDate": "unknown",
+    "country": "UK"
+  }
+}

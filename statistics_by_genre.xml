@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statistics attribute="genre">
+   <item>
+      <value>drama</value>
+      <count>9</count>
+   </item>
+   <item>
+      <value>crime</value>
+      <count>5</count>
+   </item>
+   <item>
+      <value>action</value>
+      <count>4</count>
+   </item>
+   <item>
+      <value>thriller</value>
+      <count>4</count>
+   </item>
+   <item>
+      <value>adventure</value>
+      <count>3</count>
+   </item>
+   <item>
+      <value>fantasy</value>
+      <count>3</count>
+   </item>
+   <item>
+      <value>romance</value>
+      <count>2</count>
+   </item>
+   <item>
+      <value>sci-fi</value>
+      <count>2</count>
+   </item>
+   <item>
+      <value>mystery</value>
+      <count>1</count>
+   </item>
+   <item>
+      <value>musical</value>
+      <count>1</count>
+   </item>
+   <item>
+      <value>fairy tale</value>
+      <count>1</count>
+   </item>
+</statistics>

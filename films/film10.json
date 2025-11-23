@@ -1,0 +1,13 @@
+{
+  "title": "Avengers: Endgame",
+  "year": 2019,
+  "duration": 181,
+  "genre": "action, adventure, sci-fi",
+  "rating": 8.4,
+  "description": "The Avengers take one final stand against Thanos.",
+  "director": {
+    "name": "Anthony Russo & Joe Russo",
+    "birthDate": "unknown",
+    "country": "USA"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Fight Club",
+  "year": 1999,
+  "duration": 139,
+  "genre": "drama, thriller",
+  "rating": 8.8,
+  "description": "An office worker forms an underground fight club.",
+  "director": {
+    "name": "David Fincher",
+    "birthDate": "unknown",
+    "country": "USA"
+  }
+}

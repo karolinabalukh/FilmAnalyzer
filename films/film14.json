@@ -1,0 +1,13 @@
+{
+  "title": "The Shawshank Redemption",
+  "year": 1994,
+  "duration": 142,
+  "genre": "drama, crime",
+  "rating": 9.3,
+  "description": "Two imprisoned men bond over years of friendship.",
+  "director": {
+    "name": "Frank Darabont",
+    "birthDate": "unknown",
+    "country": "USA"
+  }
+}

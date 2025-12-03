@@ -3,9 +3,10 @@ package org.project.Service;
 import org.project.Entity.Film;
 
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class StatCalculate {
-    private final Map<String, Integer> map = new HashMap<>();
+    private final Map<String, Integer> map = new ConcurrentHashMap<>();
     private final String attribute;
 
     public StatCalculate(String attribute) {
@@ -15,7 +16,7 @@ public class StatCalculate {
     public void addFilm(Film film) {
         List<String> values = extractValues(film, attribute);
         for (String value : values) {
-            map.put(value, map.getOrDefault(value, 0) + 1);
+            map.merge(value, 1, Integer::sum);
         }
     }
 
@@ -24,13 +25,13 @@ public class StatCalculate {
 
         switch (attribute) {
             case "genre" -> {
-                if  (film.getGenre() != null) {
+                if (film.getGenre() != null) {
                     list.addAll(Arrays.asList(film.getGenre().split(",")));
                 }
             }
             case "year" -> list.add(String.valueOf(film.getYear()));
             case "director" -> {
-                if  (film.getDirector() != null) {
+                if (film.getDirector() != null) {
                     list.add(film.getDirector().getName());
                 }
             }
@@ -39,7 +40,6 @@ public class StatCalculate {
                     list.add(film.getDirector().getCountry());
                 }
             }
-
             default -> {}
         }
         list.replaceAll(String::trim);
@@ -47,7 +47,6 @@ public class StatCalculate {
     }
 
     private Map<String, Integer> sortDesc(Map<String, Integer> map) {
-
         List<Map.Entry<String, Integer>> list = new ArrayList<>(map.entrySet());
 
         list.sort((a, b) -> b.getValue() - a.getValue());

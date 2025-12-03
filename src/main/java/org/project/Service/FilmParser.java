@@ -1,15 +1,19 @@
 package org.project.Service;
 
+import com.fasterxml.jackson.core.JsonParser;
+import com.fasterxml.jackson.databind.MappingIterator;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.project.Entity.Film;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
-import java.util.concurrent.*;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+import java.util.concurrent.TimeUnit;
 import java.util.function.Consumer;
 
 public class FilmParser {
@@ -37,22 +41,36 @@ public class FilmParser {
 
         List<? extends Future<?>> futures = jsonFiles.stream()
                 .map(file -> executor.submit(() -> {
-                    try {
-                        Film film = mapper.readValue(file, Film.class);
-                        filmConsumer.accept(film);
+                    try (JsonParser parser = mapper.createParser(file)) {
+
+                        MappingIterator<Film> it = mapper.readerFor(Film.class).readValues(parser);
+
+                        while (it.hasNext()) {
+                            Film film = it.next();
+                            filmConsumer.accept(film);
+                        }
+
                     } catch (IOException e) {
-                        System.out.println("Cannot read file: " + file.getName());
+                        System.err.println("Error reading file " + file.getName() + ": " + e.getMessage());
                     }
                 }))
                 .toList();
 
+        executor.shutdown();
+        try {
+            if (!executor.awaitTermination(1, TimeUnit.HOURS)) {
+                executor.shutdownNow();
+            }
+        } catch (InterruptedException e) {
+            executor.shutdownNow();
+            Thread.currentThread().interrupt();
+        }
+
         for (Future<?> future : futures) {
             try {
                 future.get();
-            } catch (Exception ignored) {
+            } catch (Exception e) {
             }
         }
-        executor.shutdown();
     }
-
 }

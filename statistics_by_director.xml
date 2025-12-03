@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <statistics attribute="director">
    <item>
-      <value>Frank Darabont</value>
-      <count>1</count>
-   </item>
-   <item>
       <value>Christopher Nolan</value>
-      <count>1</count>
+      <count>2</count>
    </item>
    <item>
-      <value>Jon M. Chu</value>
+      <value>Robert Zemeckis</value>
+      <count>2</count>
+   </item>
+   <item>
+      <value>Frank Darabont</value>
       <count>1</count>
    </item>
    <item>
@@ -17,11 +17,15 @@
       <count>1</count>
    </item>
    <item>
+      <value>Jon M. Chu</value>
+      <count>1</count>
+   </item>
+   <item>
       <value>Peter Jackson</value>
       <count>1</count>
    </item>
    <item>
-      <value>Robert Zemeckis</value>
+      <value>Giuseppe Tornatore</value>
       <count>1</count>
    </item>
    <item>

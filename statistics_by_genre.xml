@@ -2,7 +2,7 @@
 <statistics attribute="genre">
    <item>
       <value>drama</value>
-      <count>9</count>
+      <count>11</count>
    </item>
    <item>
       <value>crime</value>
@@ -25,11 +25,11 @@
       <count>3</count>
    </item>
    <item>
-      <value>romance</value>
-      <count>2</count>
+      <value>sci-fi</value>
+      <count>3</count>
    </item>
    <item>
-      <value>sci-fi</value>
+      <value>romance</value>
       <count>2</count>
    </item>
    <item>
